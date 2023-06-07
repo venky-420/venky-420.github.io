@@ -1,0 +1,39 @@
+body,html{
+	width: 100%;
+	height: 100%;
+	font-family: 'Dancing Script', cursive;
+    background: url(background.jpg) no-repeat center center fixed; 
+	 -webkit-background-size: cover;
+	 -moz-background-size: cover;
+     -o-background-size: cover;
+	  background-size: cover;
+	}
+	.rem{
+		height: 90px;
+	}
+	h1{
+		font-size: 80px;
+		color: crimson;
+		text-transform: uppercase;
+	}
+	hr{
+		border-color:red;
+		border-width: 4px;
+		stroke-width: 3px;
+	}
+	.btn-primary{
+		margin: 60px;
+		width: 120px;
+		height: 40px;
+	}
+	.btn{
+		padding-bottom: 20px;
+		border-radius: 14px;
+		background-color: #F05F44;
+		border-color: #F05F44;
+	}
+	.btn:hover{
+		background-color: #ee4b08 ;
+		border-color: #ee4b08;
+		border-width: 4px;
+	}
